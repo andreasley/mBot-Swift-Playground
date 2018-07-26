@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>moveForward(speed:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>讓mBot向前運動。 speed：運動的速度，範圍為0～255。</string>
+				<key>Title</key>
+				<string>moveForward(speed:)</string>
+			</dict>
+		</dict>
+		<key>moveBackward(speed:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>讓mBot向後運動。 speed：運動的速度，範圍為0～255。</string>
+				<key>Title</key>
+				<string>moveBackward(speed:)</string>
+			</dict>
+		</dict>
+		<key>moveLeft(speed:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>讓mBot向左轉動。 speed：運動的速度，範圍為0～255。</string>
+				<key>Title</key>
+				<string>moveLeft(speed:)</string>
+			</dict>
+		</dict>
+		<key>moveRight(speed:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>讓mBot向右轉動。 speed：運動的速度，範圍為0～255。</string>
+				<key>Title</key>
+				<string>moveRight(speed:)</string>
+			</dict>
+		</dict>
+        <key>startEngine(leftSpeed:rightSpeed)</key>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Definition</key>
+                <string>控制電機轉動。 leftSpeed：左電機的速度，範圍為0～255；rightSpeed：右電機的速度，範圍為0～255。</string>
+                <key>Title</key>
+                <string>startEngine(leftSpeed:rightSpeed)</string>
+            </dict>
+        </dict>
+		<key>turnLED(item:color:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>讓mBot對應的LED燈亮起。 item：0為只左燈亮，1為只右燈亮，2為全部燈亮；顏色：可選擇多種顏色。</string>
+				<key>Title</key>
+				<string>turnLED(item:color:)</string>
+			</dict>
+		</dict>
+		<key>playSound(tone: MusicNotePitch, meter: MusicNoteDuration)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>7.playSound：讓mBot蜂鳴器演奏。 tone：.c2~.c8；meter：全音為.whole，半音為.half，四分為 .quarter ，八分為.eighth，十六分為.sixteenth。</string>
+				<key>Title</key>
+				<string>playSound(tone: MusicNotePitch, meter: MusicNoteDuration)</string>
+			</dict>
+		</dict>
+        <key>light</key>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Definition</key>
+                <string>探測光線傳感器的值，返迴光線強度。範圍為0～980，光強越大數值越大。</string>
+                <key>Title</key>
+                <string>light</string>
+            </dict>
+        </dict>
+        <key>ultrasonic</key>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Definition</key>
+                <string>探測超聲波傳感器的值，返回以厘米為單位的距離讀數。 </string>
+                <key>Title</key>
+                <string>ultrasonic</string>
+            </dict>
+        </dict>
+        <key>line</key>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Definition</key>
+                <string>探測巡線傳感器的值，返回狀態值。 返回值：0為1、2燈都在黑線內；1為1燈在黑線，2燈在白線；2為1燈在白線，2燈在黑線；3為1、2燈都在白線上。</string>
+                <key>Title</key>
+                <string>line</string>
+            </dict>
+        </dict>
+        <key>sendInfraredMessage(message:)</key>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Definition</key>
+                <string>可以操作mBot發送任意紅外字符串。字符串要加“”。</string>
+                <key>Title</key>
+                <string>sendInfraredMessage(message:)</string>
+            </dict>
+        </dict>
+        <key>stop()</key>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Definition</key>
+                <string>讓mBot停止運動。</string>
+                <key>Title</key>
+                <string>stop()</string>
+            </dict>
+        </dict>
+        <key>wait(duration:)</key>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Definition</key>
+                <string>等待。 duration：等待的時長，單位為秒。</string>
+                <key>Title</key>
+                <string>wait(duration:)</string>
+            </dict>
+        </dict>
+	</dict>
+</dict>
+</plist>

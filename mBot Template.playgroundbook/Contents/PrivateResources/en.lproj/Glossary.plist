@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>moveForward(speed:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>let mBot move forward. Speed: The speed of the movement, ranging from 0 to 255.</string>
+				<key>Title</key>
+				<string>moveForward(speed:)</string>
+			</dict>
+		</dict>
+		<key>moveBackward(speed:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>let mBot move backwards. Speed: The speed of the movement, ranging from 0 to 255.</string>
+				<key>Title</key>
+				<string>moveBackward(speed:)</string>
+			</dict>
+		</dict>
+		<key>moveLeft(speed:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>let mBot turn left. Speed: The speed of the movement, ranging from 0 to 255.</string>
+				<key>Title</key>
+				<string>moveLeft(speed:)</string>
+			</dict>
+		</dict>
+		<key>moveRight(speed:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>let mBot turn right. Speed: The speed of the movement, ranging from 0 to 255.</string>
+				<key>Title</key>
+				<string>moveRight(speed:)</string>
+			</dict>
+		</dict>
+		<key>startEngine(leftSpeed:rightSpeed)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>control the motor rotation. LeftSpeed: left motor speed,  ranging from 0 to 255; rightSpeed: right motor speed, ranging from 0 to 255.</string>
+				<key>Title</key>
+				<string>startEngine(leftSpeed:rightSpeed)</string>
+			</dict>
+		</dict>
+		<key>turnLED(item:color:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>let the mBot corresponding LED lights. Item: 0 for the left only light, 1 for the right light only, 2 for all lights; color: select a variety of colors.</string>
+				<key>Title</key>
+				<string>turnLED(item:color:)</string>
+			</dict>
+		</dict>
+		<key>playSound(tone: MusicNotePitch, meter: MusicNoteDuration)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>let the mBot buzzer play. Tone: .c2 ~ .c8; meter: full tone for .whole, semitone for .half, four divided into .quarter, eight divided into .eighth, six divided into .sixteenth.</string>
+				<key>Title</key>
+				<string>playSound(tone: MusicNotePitch, meter: MusicNoteDuration)</string>
+			</dict>
+		</dict>
+		<key>light</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Detects the value of the light sensor and returns the light intensity. The range is 0 ~ 980, the greater the greater the value of light intensity.</string>
+				<key>Title</key>
+				<string>light</string>
+			</dict>
+		</dict>
+		<key>ultrasonic</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Detects the value of the ultrasonic sensor and returns the distance reading in centimeters.</string>
+				<key>Title</key>
+				<string>ultrasonic</string>
+			</dict>
+		</dict>
+		<key>line</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Detects the value of the line sensor and returns the status value. 0 for 1 light in the white line, 2 lights in the black line; 3 for the 1,2 lights are On the white line.</string>
+				<key>Title</key>
+				<string>line</string>
+			</dict>
+		</dict>
+		<key>sendInfraredMessage(message:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>You can operate mBot to send any infrared string. String to add "".</string>
+				<key>Title</key>
+				<string>sendInfraredMessage(message:)</string>
+			</dict>
+		</dict>
+		<key>stop()</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Let mBot stop moving.</string>
+				<key>Title</key>
+				<string>stop()</string>
+			</dict>
+		</dict>
+		<key>wait(duration:)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>wait. Duration: the length of time to wait, in seconds.</string>
+				<key>Title</key>
+				<string>wait(duration:)</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

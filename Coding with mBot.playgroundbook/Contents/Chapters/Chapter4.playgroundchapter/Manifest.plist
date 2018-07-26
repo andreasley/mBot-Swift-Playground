@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InitialUserPages</key>
+	<array>
+		<string>Page1.cutscenepage</string>
+		<string>Page2.playgroundpage</string>
+		<string>Page3.playgroundpage</string>
+		<string>Page4.playgroundpage</string>
+		<string>Page5.playgroundpage</string>
+		<string>Page6.playgroundpage</string>
+		<string>Page7.playgroundpage</string>
+		<string>Page8.playgroundpage</string>
+	</array>
+	<key>Name</key>
+	<string>Shortest Path</string>
+</dict>
+</plist>
